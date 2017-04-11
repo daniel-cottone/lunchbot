@@ -1,0 +1,17 @@
+{
+  "name": "lunchbot",
+  "nameTemplate": "{{.Project.Name}}-{{.Function.Name}}",
+  "description": "lunchbot",
+  "profile": "asurion-dev.pspdevops",
+  "role": "arn:aws:iam::091036132616:role/lambda_basic_vpc_execution",
+  "vpc": {
+    "securityGroups": [ "sg-35e5dd48" ],
+    "subnets": [ "subnet-79a68320", "subnet-c3d49ce8", "subnet-ea787a9d" ]
+  },
+  "runtime": "nodejs4.3",
+  "handler": "lib.handler",
+  "hooks": {
+    "build": "../../node_modules/.bin/webpack --config ../../webpack.config.js --bail",
+    "clean": "rm -rf lib && rm -rf .tmp"
+  }
+}
