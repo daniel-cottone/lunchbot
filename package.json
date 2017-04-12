@@ -5,7 +5,8 @@
   "dependencies": {
     "babel-polyfill": "^6.3.14",
     "request": "^2.81.0",
-    "request-promise": "^4.2.0"
+    "request-promise": "^4.2.0",
+    "yelp-fusion": "^1.0.3"
   },
   "devDependencies": {
     "babel-core": "^6.18.2",

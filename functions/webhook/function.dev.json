@@ -1,3 +1,8 @@
 {
-  "description": "Handle webhook events from api.ai"
+  "description": "Handle webhook events from api.ai",
+  "environment": {
+    "CLIENT_ID": "AQECAHh0A8nWzY04byU00tXKswP3IjEmYXfG8IqNFs2NYjQAJAAAAHQwcgYJKoZIhvcNAQcGoGUwYwIBADBeBgkqhkiG9w0BBwEwHgYJYIZIAWUDBAEuMBEEDIey0Gr2WA9BuscTCQIBEIAxBbGdk5L7sGm2+RZepOZgFZShdR8aOs1+VTfuEI0NVvPkfHXXZZO3CP9UrHjaz+tbKQ==",
+    "CLIENT_SECRET": "AQECAHh0A8nWzY04byU00tXKswP3IjEmYXfG8IqNFs2NYjQAJAAAAKIwgZ8GCSqGSIb3DQEHBqCBkTCBjgIBADCBiAYJKoZIhvcNAQcBMB4GCWCGSAFlAwQBLjARBAwGnsFpWyHJvfjzHOwCARCAW0tGV+0zdTe2STjSEuzwuhfOqn9VMo4iLWTixlaj/2X8N9j+ZDBN2TBcjeZ0thtrBapd+tMmin5PcRWjcUvuPJA7aw56oSpz59ewzvUkV4RWY6fVANt8Y0G/4ws="
+  },
+  "role": "arn:aws:iam::091036132616:role/svc-pss-pf-devLambda"
 }
