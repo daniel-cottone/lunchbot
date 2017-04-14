@@ -5,7 +5,7 @@
   "profile": "asurion-dev.pspdevops",
   "role": "arn:aws:iam::091036132616:role/lambda_basic_vpc_execution",
   "vpc": {
-    "securityGroups": [ "sg-35e5dd48" ],
+    "securityGroups": [ "sg-3f742940" ],
     "subnets": [ "subnet-79a68320", "subnet-c3d49ce8", "subnet-ea787a9d" ]
   },
   "runtime": "nodejs4.3",

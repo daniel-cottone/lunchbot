@@ -1,0 +1,5 @@
+{
+  "description": "Handle interactive message webhook events from Slack",
+  "timeout": 5,
+  "role": "arn:aws:iam::091036132616:role/svc-pss-pf-devLambda"
+}

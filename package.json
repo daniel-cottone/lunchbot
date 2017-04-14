@@ -3,7 +3,9 @@
   "version": "0.1.0",
   "description": "lunchbot",
   "dependencies": {
+    "@slack/client": "^3.9.0",
     "babel-polyfill": "^6.3.14",
+    "qs": "^6.4.0",
     "request": "^2.81.0",
     "request-promise": "^4.2.0",
     "yelp-fusion": "^1.0.3"
